@@ -4,8 +4,8 @@
 // @version      1.18
 // @description  阿里云直链导出
 // @author       invobzvr
-// @match        *://www.aliyundrive.com/drive*
-// @match        *://www.aliyundrive.com/s/*
+// @match        *://www.alipan.com/drive*
+// @match        *://www.alipan.com/s/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_xmlhttpRequest
@@ -174,7 +174,7 @@
                     params: [[await that.urlOf(ii)], {
                         dir: dir,
                         out: ii.name,
-                        referer: 'https://www.aliyundrive.com/',
+                        referer: 'https://www.alipan.com/',
                         'user-agent': navigator.userAgent,
                     }],
                 })))],
